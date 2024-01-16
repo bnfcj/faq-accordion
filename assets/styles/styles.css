@@ -1,11 +1,11 @@
 /* Background Image on Top */
 .image-container {
   background-image: url("../images/background-pattern-mobile.svg");
-  height: 35vh;
+  height: 30vh;
   width: 100%;
   top: 0;
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
   position: absolute;
 }
 @media screen and (min-width: 650px) {
@@ -51,7 +51,7 @@ body {
   overflow-y: auto;
   display: grid;
   grid-template-columns: min-content auto;
-  grid-template-rows: 10%;
+  grid-template-rows: 15%;
   grid-auto-rows: auto;
   z-index: 1;
   gap: 10px;
