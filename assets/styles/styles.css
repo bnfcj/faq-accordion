@@ -24,6 +24,7 @@
 /* Body */
 body {
   background-color: var(--light-pink);
+  font-family: "Work Sans", sans-serif;
 }
 /* Main */
 .main {
@@ -69,16 +70,23 @@ body {
 .accordion-title {
   grid-column: span 1;
   margin: 0;
+  font-weight: 700;
+  color: var(--dark-purple);
 }
 .accordion-details {
   grid-column: span 2;
 }
 .accordion-details-question {
+  font-weight: 600;
   list-style: none;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.accordion-details-answer {
+  font-weight: 400;
+  color: var(--grayish-purple);
 }
 .accordion-details-question::after {
   content: url(../images/icon-plus.svg);
