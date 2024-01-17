@@ -129,6 +129,9 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+.accordion-details-question::-webkit-details-marker {
+  display: none;
+}
 .accordion-details-answer {
   font-weight: 400;
   line-height: 1.4;
